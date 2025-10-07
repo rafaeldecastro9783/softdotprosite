@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* pequenos utilitários visuais */
+:root {
+  --sd-gradient: linear-gradient(90deg, #03C6F0 0%, #8CE88B 100%);
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* hero background subtle */
+.hero-bg {
+  background: radial-gradient(ellipse at center, rgba(3,198,240,0.06) 0%, rgba(140,232,139,0.03) 40%, transparent 60%);
+}
